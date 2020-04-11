@@ -19,13 +19,13 @@ public class Numbers {
         double DoubleValue = 100d/3d;
 
         // casting
-        float floatValue2 = (float)(55.25);
+        //float float_Value2 = 55.25f;
         //CTRL+ALT+L= FORMATO
         // shift + teclas ) moverse para arriba, abajo, etc.
         /* java: maneja mejor el double, muchas bibliotecas estan optimizadas en Double y las computadoras mas recientes
           estan optimizadas para el double*/
 
-        System.out.println("INt: " + IntValue);
+        System.out.println("Int: " + IntValue);
         System.out.println("float: "+ floatValue);
         System.out.println("double: "+ DoubleValue);
 	}
